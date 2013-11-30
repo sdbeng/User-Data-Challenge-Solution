@@ -21,6 +21,11 @@
 		F919E110183FC8430062EA43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F919E0F2183FC8420062EA43 /* UIKit.framework */; };
 		F919E118183FC8430062EA43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F919E116183FC8430062EA43 /* InfoPlist.strings */; };
 		F919E11A183FC8430062EA43 /* UserDataChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F919E119183FC8430062EA43 /* UserDataChallengeSolutionTests.m */; };
+		F919E125183FEE460062EA43 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = F919E124183FEE460062EA43 /* UserData.m */; };
+		F919E12A18402A2E0062EA43 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F919E12618402A2E0062EA43 /* person1.jpeg */; };
+		F919E12B18402A2E0062EA43 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F919E12718402A2E0062EA43 /* person2.jpeg */; };
+		F919E12C18402A2E0062EA43 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F919E12818402A2E0062EA43 /* person3.jpg */; };
+		F919E12D18402A2E0062EA43 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F919E12918402A2E0062EA43 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		F919E115183FC8430062EA43 /* UserDataChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserDataChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F919E117183FC8430062EA43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F919E119183FC8430062EA43 /* UserDataChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataChallengeSolutionTests.m; sourceTree = "<group>"; };
+		F919E123183FEE460062EA43 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		F919E124183FEE460062EA43 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		F919E12618402A2E0062EA43 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		F919E12718402A2E0062EA43 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		F919E12818402A2E0062EA43 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		F919E12918402A2E0062EA43 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,8 @@
 				F919E0FD183FC8420062EA43 /* AppDelegate.h */,
 				F919E0FE183FC8420062EA43 /* AppDelegate.m */,
 				F919E100183FC8430062EA43 /* Main.storyboard */,
+				F919E123183FEE460062EA43 /* UserData.h */,
+				F919E124183FEE460062EA43 /* UserData.m */,
 				F919E103183FC8430062EA43 /* ViewController.h */,
 				F919E104183FC8430062EA43 /* ViewController.m */,
 				F919E106183FC8430062EA43 /* Images.xcassets */,
@@ -126,6 +139,10 @@
 		F919E0F5183FC8420062EA43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F919E12618402A2E0062EA43 /* person1.jpeg */,
+				F919E12718402A2E0062EA43 /* person2.jpeg */,
+				F919E12818402A2E0062EA43 /* person3.jpg */,
+				F919E12918402A2E0062EA43 /* person4.jpeg */,
 				F919E0F6183FC8420062EA43 /* UserDataChallengeSolution-Info.plist */,
 				F919E0F7183FC8420062EA43 /* InfoPlist.strings */,
 				F919E0FA183FC8420062EA43 /* main.m */,
@@ -228,9 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F919E12C18402A2E0062EA43 /* person3.jpg in Resources */,
+				F919E12A18402A2E0062EA43 /* person1.jpeg in Resources */,
 				F919E107183FC8430062EA43 /* Images.xcassets in Resources */,
 				F919E0F9183FC8420062EA43 /* InfoPlist.strings in Resources */,
+				F919E12D18402A2E0062EA43 /* person4.jpeg in Resources */,
 				F919E102183FC8430062EA43 /* Main.storyboard in Resources */,
+				F919E12B18402A2E0062EA43 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +272,7 @@
 			files = (
 				F919E105183FC8430062EA43 /* ViewController.m in Sources */,
 				F919E0FF183FC8420062EA43 /* AppDelegate.m in Sources */,
+				F919E125183FEE460062EA43 /* UserData.m in Sources */,
 				F919E0FB183FC8420062EA43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

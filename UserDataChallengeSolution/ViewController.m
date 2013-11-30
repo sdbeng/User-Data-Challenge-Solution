@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UserData.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +20,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //call the class method users on the model UserData
+    self.users = [UserData users];
+    
+    NSLog(@"%@", self.users);
+    
+    
+   
+//    NSMutableDictionary *myDictionary = [[NSMutableDictionary alloc] init];
+//    
+//    [myDictionary setObject:@"foo" forKey:USER_NAME];
+//    [myDictionary setObject:@"foo@hackenews.ca" forKey:USER_EMAIL];
+//    [myDictionary setObject:@"foopass" forKey:USER_PASSWORD];
+//    [myDictionary setObject:@23 forKey:USER_AGE];
+//    
+//    UIImage *userImage = [UIImage imageNamed:USER_IMAGE];
+//    
+//    
+//    NSLog(@"%@", myDictionary);
+    
 }
 
 - (void)didReceiveMemoryWarning
